@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'i18n-country-translations'
 
 Dir.glob('rails/locale/*.yml') do |locale_file|
   describe "a i18n-country-translations #{locale_file} locale file" do

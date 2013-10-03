@@ -16,9 +16,9 @@ Add to your Gemfile:
 == Usage
 
   I18n.t(:US, :scope => :countries)
-  
+
 or
-  
+
   t(:US, :scope => :countries)
 
 == Contributing
@@ -53,6 +53,7 @@ If you need to use timezones, we also created a convenient way to translate the 
 https://github.com/onomojo/i18n-timezones
 
 == Version History
+1.0.1.1 - Remove Rails dependency
 1.0.1 - Fixing bad version in Gemfile.lock
 1.0 - Adding fr-CA translation
 0.0.9 - Update the locale files with the last values from the CLDR repository

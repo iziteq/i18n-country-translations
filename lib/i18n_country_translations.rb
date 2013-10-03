@@ -1,1 +1,1 @@
-require 'i18n_country_translations/railtie'
+require 'i18n_country_translations/init'
